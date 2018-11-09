@@ -1,0 +1,35 @@
+1. What is true of a DFA?
+a) FSM can have one or more final states
+b) FSM can have more than one start state
+c) Input alphabet can be infinite
+d) Language should be finite
+
+2. How NFA defers from a DFA?
+a) multiple transition on same input symbol from a state
+b) has multiple final states
+c) can accept infinite languages
+d) can have multiple start states
+
+3. A DFA accepts some language L on a single final state. We add a self loop at the final state on the input alphabet. What language does this DFA accept now?
+a) { xy | x є L and y  є  Σ* }
+b) L U Σ*
+c) Σ*
+d) no change in the Language
+
+4. A pair of states is distinguishable if 
+a) one of them is in the non-final and the other is the final state
+b) both states on at least one input should go to the same state
+c) both states should be reachable from an earlier state on the same input
+d) both should be final or both should be non-final
+
+5. Which of the following is true?
+a) Left linear grammar generates the rightmost symbols in the string first.
+b) left linear grammar generates the leftmost symbols in the string first.
+c) Generation of the string does not depend on whether the grammar is left linear or right linear
+d) A grammar should have a lambda production.
+
+6. If L1 and L2 are regular, then symmetric difference of the two  
+a) is regular as intersection, union and set difference are regular
+b) is regular as union and reverse are regular
+c) is regular as closure and complement are regular
+d) is undecidable
